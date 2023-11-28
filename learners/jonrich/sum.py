@@ -1,4 +1,4 @@
-def add_numbers():
-    return 3
+def add_numbers(a, b):
+    return a + b
 
-assert add_numbers() == 3
+assert add_numbers(1, 2) == 3
