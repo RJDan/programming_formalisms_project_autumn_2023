@@ -1,4 +1,5 @@
 def add_numbers(a, b):
+    """Adds two numbers."""
     assert isinstance(a, (int, float)), "a must be an integer"
     assert isinstance(b, (int, float)), "b must be an integer"
     return a + b
